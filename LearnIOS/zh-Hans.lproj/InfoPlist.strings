@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  LearnIOS
+
+  Created by Even on 2019/9/10.
+  Copyright © 2019 Even. All rights reserved.
+*/
+
+CFBundleDisplayName = "English-LearnIOS";
+
