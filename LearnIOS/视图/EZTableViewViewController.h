@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface EZTableViewViewController : EZBaseViewController
+@interface EZTableViewViewController : UIViewController
 
 @end
 

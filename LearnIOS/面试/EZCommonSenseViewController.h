@@ -1,8 +1,8 @@
 //
-//  EZBaseViewController.h
+//  EZCommonSenseViewController.h
 //  LearnIOS
 //
-//  Created by Even on 2019/10/6.
+//  Created by Even on 2019/11/13.
 //  Copyright © 2019 Even. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface EZBaseViewController : UIViewController
+@interface EZCommonSenseViewController : UIViewController
 
 @end
 

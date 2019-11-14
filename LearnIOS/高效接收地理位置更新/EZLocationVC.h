@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface EZLocationVC : EZBaseViewController <CLLocationManagerDelegate>
+@interface EZLocationVC : UIViewController <CLLocationManagerDelegate>
 
 @property (nonatomic, strong) CLLocationManager *manager;
 

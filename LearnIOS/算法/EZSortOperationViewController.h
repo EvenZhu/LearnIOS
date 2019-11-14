@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface EZSortOperationViewController : EZBaseViewController
+@interface EZSortOperationViewController : UIViewController
 
 @end
 

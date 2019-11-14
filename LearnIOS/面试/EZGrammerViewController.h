@@ -1,8 +1,8 @@
 //
-//  EZDynamicsViewController.h
+//  EZGrammerViewController.h
 //  LearnIOS
 //
-//  Created by Even on 2019/9/18.
+//  Created by Even on 2019/11/11.
 //  Copyright © 2019 Even. All rights reserved.
 //
 
@@ -10,7 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface EZDynamicsViewController : UIViewController
+@interface EZGrammerViewController : UIViewController
+
+- (void)privateMethod;
 
 @end
 

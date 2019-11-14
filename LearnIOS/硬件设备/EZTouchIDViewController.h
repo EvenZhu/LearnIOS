@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface EZTouchIDViewController : EZBaseViewController
+@interface EZTouchIDViewController : UIViewController
 
 @end
 

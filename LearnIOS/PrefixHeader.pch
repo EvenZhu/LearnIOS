@@ -17,6 +17,7 @@
 #import <MBProgressHUD.h>
 #import <Reachability.h>
 #import <CocoaLumberjack.h>
-#import "EZBaseViewController.h"
+
+#import "UIViewController+EZBase.h"
 
 #endif /* PrefixHeader_pch */

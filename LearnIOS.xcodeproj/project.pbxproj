@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -37,6 +37,9 @@
 		30333F1A23321D7F000A4068 /* EZDynamicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30333F1923321D7F000A4068 /* EZDynamicsViewController.m */; };
 		303AE55E22D830B400CD1BFC /* EZSqlLiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 303AE55D22D830B400CD1BFC /* EZSqlLiteViewController.m */; };
 		303AE56022D8336E00CD1BFC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 303AE55F22D8336E00CD1BFC /* libsqlite3.tbd */; };
+		304A27D9237D844800D2C7B8 /* EZGrammerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 304A27D5237D844700D2C7B8 /* EZGrammerViewController.m */; };
+		304A27DA237D844800D2C7B8 /* EZCommonSenseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 304A27D7237D844700D2C7B8 /* EZCommonSenseViewController.m */; };
+		304A27DD237D846600D2C7B8 /* UIViewController+EZBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 304A27DC237D846600D2C7B8 /* UIViewController+EZBase.m */; };
 		30553E7822F42ACE0000C589 /* EZNumberOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30553E7722F42ACE0000C589 /* EZNumberOperationViewController.m */; };
 		307CE2302327BF6C00D66DCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 307CE2322327BF6C00D66DCD /* InfoPlist.strings */; };
 		307CE2372327C25C00D66DCD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 307CE2392327C25C00D66DCD /* Localizable.strings */; };
@@ -48,8 +51,7 @@
 		30C439A822AF933200EC3ECA /* EZLearnSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C439A722AF933200EC3ECA /* EZLearnSwift.swift */; };
 		30C439AA22B0DAF600EC3ECA /* bg_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C439A922B0DAF500EC3ECA /* bg_image.png */; };
 		30C439AC22B0E0F900EC3ECA /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C439AB22B0E0F900EC3ECA /* AppIcon.png */; };
-		30EFDDAE23499D5600D96F34 /* EZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EFDDAD23499D5600D96F34 /* EZBaseViewController.m */; };
-		6E85233856AFFF6F4FA9D187 /* libPods-LearnIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C31926B99313CF96D980567 /* libPods-LearnIOS.a */; };
+		D0EC20E6B9623D524C2AED14 /* libPods-LearnIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B9AB81E2E0766F9279BE7C /* libPods-LearnIOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +72,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12F901AD61954683CDFC7D26 /* Pods-LearnIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnIOS/Pods-LearnIOS.release.xcconfig"; sourceTree = "<group>"; };
+		3007CAE95C911F8D5A31ADA4 /* Pods-LearnIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnIOS.debug.xcconfig"; path = "Target Support Files/Pods-LearnIOS/Pods-LearnIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		30083FFB235850B300A02EB9 /* EZMVVMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZMVVMViewController.h; sourceTree = "<group>"; };
 		30083FFC235850B300A02EB9 /* EZMVVMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZMVVMViewController.m; sourceTree = "<group>"; };
 		30083FFF235850DB00A02EB9 /* EZMVVMView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZMVVMView.h; sourceTree = "<group>"; };
@@ -138,6 +140,12 @@
 		303AE55D22D830B400CD1BFC /* EZSqlLiteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZSqlLiteViewController.m; sourceTree = "<group>"; };
 		303AE55F22D8336E00CD1BFC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		303AE56122D8338A00CD1BFC /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		304A27D5237D844700D2C7B8 /* EZGrammerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZGrammerViewController.m; sourceTree = "<group>"; };
+		304A27D6237D844700D2C7B8 /* EZGrammerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZGrammerViewController.h; sourceTree = "<group>"; };
+		304A27D7237D844700D2C7B8 /* EZCommonSenseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZCommonSenseViewController.m; sourceTree = "<group>"; };
+		304A27D8237D844800D2C7B8 /* EZCommonSenseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZCommonSenseViewController.h; sourceTree = "<group>"; };
+		304A27DB237D846600D2C7B8 /* UIViewController+EZBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+EZBase.h"; sourceTree = "<group>"; };
+		304A27DC237D846600D2C7B8 /* UIViewController+EZBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+EZBase.m"; sourceTree = "<group>"; };
 		30553E7622F42ACE0000C589 /* EZNumberOperationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZNumberOperationViewController.h; sourceTree = "<group>"; };
 		30553E7722F42ACE0000C589 /* EZNumberOperationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZNumberOperationViewController.m; sourceTree = "<group>"; };
 		3057372722BC7E7200E025D3 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
@@ -157,10 +165,8 @@
 		30C439A722AF933200EC3ECA /* EZLearnSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZLearnSwift.swift; sourceTree = "<group>"; };
 		30C439A922B0DAF500EC3ECA /* bg_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_image.png; sourceTree = "<group>"; };
 		30C439AB22B0E0F900EC3ECA /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
-		30EFDDAC23499D5600D96F34 /* EZBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZBaseViewController.h; sourceTree = "<group>"; };
-		30EFDDAD23499D5600D96F34 /* EZBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZBaseViewController.m; sourceTree = "<group>"; };
-		4C31926B99313CF96D980567 /* libPods-LearnIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LearnIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF6ED45E22891FC08DBD95CF /* Pods-LearnIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnIOS/Pods-LearnIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A5B9AB81E2E0766F9279BE7C /* libPods-LearnIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LearnIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E56CD5FAAC2BFD31860979A9 /* Pods-LearnIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnIOS.release.xcconfig"; path = "Target Support Files/Pods-LearnIOS/Pods-LearnIOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,7 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				303AE56022D8336E00CD1BFC /* libsqlite3.tbd in Frameworks */,
-				6E85233856AFFF6F4FA9D187 /* libPods-LearnIOS.a in Frameworks */,
+				D0EC20E6B9623D524C2AED14 /* libPods-LearnIOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +276,8 @@
 				3027416322758F70007A973A /* LearnIOSTests */,
 				3027416E22758F70007A973A /* LearnIOSUITests */,
 				3027414622758F6E007A973A /* Products */,
-				78FC26726DED658ED86370BA /* Pods */,
 				DB3570F46F7C5D83430BA070 /* Frameworks */,
+				69F690CB97927BE9BFAD3352 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -288,6 +294,7 @@
 		3027414722758F6E007A973A /* LearnIOS */ = {
 			isa = PBXGroup;
 			children = (
+				304A27D4237D843300D2C7B8 /* 面试 */,
 				30083FFA235850A100A02EB9 /* 设计模式 */,
 				308A23BD235413C3006C620F /* 通讯录 */,
 				30EFDDA823499BD800D96F34 /* Category */,
@@ -369,6 +376,17 @@
 			path = "数据存储";
 			sourceTree = "<group>";
 		};
+		304A27D4237D843300D2C7B8 /* 面试 */ = {
+			isa = PBXGroup;
+			children = (
+				304A27D8237D844800D2C7B8 /* EZCommonSenseViewController.h */,
+				304A27D7237D844700D2C7B8 /* EZCommonSenseViewController.m */,
+				304A27D6237D844700D2C7B8 /* EZGrammerViewController.h */,
+				304A27D5237D844700D2C7B8 /* EZGrammerViewController.m */,
+			);
+			path = "面试";
+			sourceTree = "<group>";
+		};
 		3087CCB422DC730900BE1BFA /* 视图 */ = {
 			isa = PBXGroup;
 			children = (
@@ -423,19 +441,19 @@
 		30EFDDA823499BD800D96F34 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				30EFDDAC23499D5600D96F34 /* EZBaseViewController.h */,
-				30EFDDAD23499D5600D96F34 /* EZBaseViewController.m */,
+				304A27DB237D846600D2C7B8 /* UIViewController+EZBase.h */,
+				304A27DC237D846600D2C7B8 /* UIViewController+EZBase.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
 		};
-		78FC26726DED658ED86370BA /* Pods */ = {
+		69F690CB97927BE9BFAD3352 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CF6ED45E22891FC08DBD95CF /* Pods-LearnIOS.debug.xcconfig */,
-				12F901AD61954683CDFC7D26 /* Pods-LearnIOS.release.xcconfig */,
+				3007CAE95C911F8D5A31ADA4 /* Pods-LearnIOS.debug.xcconfig */,
+				E56CD5FAAC2BFD31860979A9 /* Pods-LearnIOS.release.xcconfig */,
 			);
-			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		DB3570F46F7C5D83430BA070 /* Frameworks */ = {
@@ -444,7 +462,7 @@
 				303AE56122D8338A00CD1BFC /* libsqlite3.0.tbd */,
 				303AE55F22D8336E00CD1BFC /* libsqlite3.tbd */,
 				3057372722BC7E7200E025D3 /* CoreImage.framework */,
-				4C31926B99313CF96D980567 /* libPods-LearnIOS.a */,
+				A5B9AB81E2E0766F9279BE7C /* libPods-LearnIOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -456,11 +474,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3027417422758F70007A973A /* Build configuration list for PBXNativeTarget "LearnIOS" */;
 			buildPhases = (
-				C7653EA52CAF9FE3013921C7 /* [CP] Check Pods Manifest.lock */,
+				D1F93749BACE2FBA2CB0E504 /* [CP] Check Pods Manifest.lock */,
 				3027414122758F6E007A973A /* Sources */,
 				3027414222758F6E007A973A /* Frameworks */,
 				3027414322758F6E007A973A /* Resources */,
-				7EC5EE118363B1CB25183995 /* [CP] Copy Pods Resources */,
+				D7C4935DB451CCC2DB2B5461 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -584,48 +602,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7EC5EE118363B1CB25183995 /* [CP] Copy Pods Resources */ = {
+		D1F93749BACE2FBA2CB0E504 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LearnIOS/Pods-LearnIOS-resources.sh",
-				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
-				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
-				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
-				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
-				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearnIOS/Pods-LearnIOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C7653EA52CAF9FE3013921C7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-LearnIOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7C4935DB451CCC2DB2B5461 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearnIOS/Pods-LearnIOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearnIOS/Pods-LearnIOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LearnIOS/Pods-LearnIOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -655,7 +668,8 @@
 				3027414A22758F6E007A973A /* AppDelegate.m in Sources */,
 				30333F1A23321D7F000A4068 /* EZDynamicsViewController.m in Sources */,
 				30553E7822F42ACE0000C589 /* EZNumberOperationViewController.m in Sources */,
-				30EFDDAE23499D5600D96F34 /* EZBaseViewController.m in Sources */,
+				304A27DA237D844800D2C7B8 /* EZCommonSenseViewController.m in Sources */,
+				304A27DD237D846600D2C7B8 /* UIViewController+EZBase.m in Sources */,
 				300840072358510B00A02EB9 /* EZMVVMModel.m in Sources */,
 				3031BEF32328EF5A00132894 /* CJMethodLog+CJMessage.m in Sources */,
 				3022602C22F2D22700ACC4A8 /* EZArrayOperationViewController.m in Sources */,
@@ -664,6 +678,7 @@
 				303AE55E22D830B400CD1BFC /* EZSqlLiteViewController.m in Sources */,
 				30C439A822AF933200EC3ECA /* EZLearnSwift.swift in Sources */,
 				3022603222F2DAD000ACC4A8 /* EZViewOperationViewController.m in Sources */,
+				304A27D9237D844800D2C7B8 /* EZGrammerViewController.m in Sources */,
 				3022602922F2C60400ACC4A8 /* EZLinkedListViewController.m in Sources */,
 				30084004235850F900A02EB9 /* EZMVVMViewModel.m in Sources */,
 				3027415B22758F70007A973A /* main.m in Sources */,
@@ -852,7 +867,7 @@
 		};
 		3027417522758F70007A973A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF6ED45E22891FC08DBD95CF /* Pods-LearnIOS.debug.xcconfig */;
+			baseConfigurationReference = 3007CAE95C911F8D5A31ADA4 /* Pods-LearnIOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -880,7 +895,7 @@
 		};
 		3027417622758F70007A973A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12F901AD61954683CDFC7D26 /* Pods-LearnIOS.release.xcconfig */;
+			baseConfigurationReference = E56CD5FAAC2BFD31860979A9 /* Pods-LearnIOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

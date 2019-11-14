@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface EZNumberOperationViewController : EZBaseViewController
+@interface EZNumberOperationViewController : UIViewController
 
 @end
 

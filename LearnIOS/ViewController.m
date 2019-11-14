@@ -45,7 +45,12 @@ static int static_global_val = 2;
 }
 
 - (void)setupData {
-    _vcNames = @[@{@"group":NSLocalizedString(@"save", nil),@"items":@[@[@"Sqlite",@"SQLite",@"Sqlite数据库"]]},
+    _vcNames = @[@{@"group":@"本地持久化",@"items":@[@[@"Sqlite",@"SQLite",@"Sqlite数据库"]]},
+                 @{@"group":@"面试题",@"items":@[@[@"Grammer",@"语法篇",@"iOS开发语法相关验证"],
+                                              @[@"CommonSense",@"常识篇",@"iOS开发i常用知识相关验证"]]},
+                 @{@"group":@"文件下载",@"items":@[@[@"NormalDownload",@"普通下载",@"实现文件的普通方式下载"],
+                                               @[@"InterruptDownload",@"断点下载",@"断点下载（断点续传）"],
+                                               @[@"SubsectionDownload",@"分段下载",@"实现大文件的分段下载和提升下载速度"]]},
                  @{@"group":@"iOS框架",@"items":@[@[@"Dynamics",@"UIKit Dynamics",@"将物理模拟动作应用于UIView"],
                                                 @[@"CoreLocation",@"CoreLocation",@""],
                                                 @[@"AddressBook",@"通讯录",@"通讯录框架的使用"]]},

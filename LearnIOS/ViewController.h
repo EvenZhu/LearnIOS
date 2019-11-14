@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : EZBaseViewController
+@interface ViewController : UIViewController
 
 
 @end

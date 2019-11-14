@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface EZLinkedListViewController : EZBaseViewController
+@interface EZLinkedListViewController : UIViewController
 
 @end
 

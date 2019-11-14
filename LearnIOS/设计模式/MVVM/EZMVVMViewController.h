@@ -6,13 +6,12 @@
 //  Copyright © 2019 Even. All rights reserved.
 //
 
-#import "EZBaseViewController.h"
 #import "EZMVVMView.h"
 #import "EZMVVMViewModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface EZMVVMViewController : EZBaseViewController
+@interface EZMVVMViewController : UIViewController
 
 @property (nonatomic, strong) EZMVVMView *mView;
 @property (nonatomic, strong) EZMVVMViewModel *viewModel;
